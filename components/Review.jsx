@@ -14,42 +14,42 @@ const reviewsData = [
     name: "Emily Smith",
     job: "Therapist",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Good Web Development skills with implementing pixel perfect design",
   },
   {
     avatar: "/reviews/avatar-2.png",
-    name: "John Doe",
+    name: "Nancy Jane",
     job: "Engineer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Highly recommended , delivery on time and good manner",
   },
   {
     avatar: "/reviews/avatar-3.png",
     name: "Taylor Nathan",
     job: "Athletes",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Good Web Development skills with implementing pixel perfect design",
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Jane Dawson",
     job: "Video Editor",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Good Web Development skills with implementing pixel perfect design",
   },
   {
     avatar: "/reviews/avatar-5.png",
     name: "Wilson Will",
     job: "Digital Marketer",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Highly recommended , delivery on time and good manner",
   },
   {
     avatar: "/reviews/avatar-6.png",
     name: "Dakota Jhonson",
     job: "Activist",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, deleniti.",
+      "Highly recommended , delivery on time and good manner",
   },
 ];
 const Review = () => {

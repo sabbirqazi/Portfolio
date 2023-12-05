@@ -14,41 +14,33 @@ import { Pagination } from "swiper/modules";
 import ProjectCard from "@/components/ProjectCard";
 const projectData = [
   {
-    image: "/work/1.png",
-    category: "fullstack",
+    image: "/work/eventguru.png",
+    category: "NextJS",
     name: "Event Guru",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iure!",
-    link: "/",
-    github: "/",
+      "EventGuru aims to revolutionize event management, providing a user-friendly and feature-rich platform.",
+    link: "https://event-management-nu.vercel.app/",
+    github: "https://github.com/Sakib360360/event-management",
   },
   {
-    image: "/work/2.png",
+    image: "/work/langocamp.png",
     category: "fullstack",
-    name: "Event Guru",
+    name: "LangoCamp",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iure!",
-    link: "/",
-    github: "/",
+      "LangoCamp offers an exciting array of foreign language courses.",
+    link: "https://lango-camp.web.app/",
+    github: "https://github.com/sabbirqazi/language-camp-client",
   },
   {
-    image: "/work/3.png",
-    category: "fullstack",
+    image: "/work/toybounty.png",
+    category: "ReactJS",
     name: "Event Guru",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iure!",
-    link: "/",
-    github: "/",
+      "ToyBounty is a user-friendly online toy marketplace offering a diverse range of toys." ,
+    link: "https://learning-toys-marketplace.web.app/",
+    github: "https://github.com/sabbirqazi/toy-bounty-client",
   },
-  {
-    image: "/work/4.png",
-    category: "fullstack",
-    name: "Event Guru",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, iure!",
-    link: "/",
-    github: "/",
-  },
+
 ];
 const Work = () => {
   return (

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={outfit.className}>
-        <head><link rel='icon' href='/favicon.ico' /></head>
+        <link rel='icon' href='/favicon.ico' />
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}
